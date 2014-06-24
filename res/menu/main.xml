@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Menu item without a sub menu. -->
+    <item
+        android:id="@+id/menu_designer"
+        android:title="Designer"
+        />
+    <!-- Menu item with a sub menu. -->
+    <item
+        android:id="@+id/menu_coder"
+        android:title="Coder">
+        <menu>
+            <item
+                android:id="@+id/menu_coder1"
+                android:title="Coder1"
+                />
+            <item
+                android:id="@+id/menu_coder2"
+                android:title="Coder2"
+                />
+            <item
+                android:id="@+id/menu_coder3"
+                android:title="Coder3"
+                />
+            <item
+                android:id="@+id/menu_coder4"
+                android:title="Coder4"
+                />
+            <item
+                android:id="@+id/menu_coder5"
+                android:title="Coder5"
+                />
+        </menu>
+    </item>
+    <!-- Menu item without a sub menu. -->
+    <item
+        android:id="@+id/menu_product"
+        android:title="Product"
+        />
+</menu>
